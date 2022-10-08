@@ -2,11 +2,11 @@ import telebot
 import random
 from telebot import types
 
-f = open('Факты','r',encoding='UTF-8')
+f = open('facts','r',encoding='UTF-8')
 facts = f.read().split('\n')
 f.close()
 
-f = open('Поговорки','r',encoding='UTF-8')
+f = open('pogovorki','r',encoding='UTF-8')
 thinks = f.read().split('\n')
 f.close()
 
